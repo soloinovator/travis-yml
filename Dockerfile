@@ -1,4 +1,4 @@
-FROM ruby:2.6.10-slim as base
+FROM ruby:2.7.8-slim as base
 
 # upgrade
 RUN apt-get update > /dev/null 2>&1 && \
