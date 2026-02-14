@@ -10,7 +10,7 @@ group :web do
   gem 'sinatra-contrib'
   gem 'rack-cors'
   gem 'rack-ssl-enforcer', '~> 0.2.9'
-  gem 'sentry-raven', '~> 2.9.0'
+  gem 'sentry-raven', '~> 3.0.0'
   gem 'travis-config', '~> 1.1.3'
   gem 'travis-metrics', git: 'https://github.com/travis-ci/travis-metrics', ref: 'sf-unfork'
 end
